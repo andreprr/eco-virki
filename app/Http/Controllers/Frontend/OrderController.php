@@ -55,7 +55,7 @@ class OrderController extends Controller
 	public function shippingCost(Request $request)
 	{
 		$destination = $request->input('city_id');
-		
+			
 		return $this->_getShippingCost($destination, $this->_getTotalWeight());
 	}
 

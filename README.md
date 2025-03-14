@@ -23,6 +23,9 @@ Masuk ke folder dengan perintah
 ```bash
     composer install
 ```
+```bash
+    npm install
+```
 
 ```bash
     php artisan key:generate
